@@ -1,0 +1,58 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Defining a variable
+$gray: #F4F4F4;
+$width: 500px;
+
+body {
+  background: $gray; // Using this variable
+  font-family: Arial;
+}
+.container {
+  width: $width;
+  margin: 0 auto;
+}
+.sentence {
+  display: block;
+  padding: 5px 20px;
+  border-left: 4px solid #CCC;
+  margin: 20px 0;
+}
+.coach {
+  background-color: #FFE;
+  & p {
+    font-weight: 600;
+  }
+}
+
+h1 {
+  size: large;
+  font-weight: normal;
+}
+form {
+  width: 90%;
+  display: flex;
+  height: 2.5em;
+}
+#form {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: none;
+  border: 1px solid #CCC;
+  border-right: none;
+  box-shadow: inset 1px 1px 2px #CCC;
+}
+#button {
+  width: auto;
+  padding: 12px;
+  margin: 0;
+  color: white;
+  background-color: #377BB5;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-style: none;
+}
